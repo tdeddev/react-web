@@ -1,0 +1,33 @@
+.about-title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-content p{
+    margin-top: 1rem;
+    margin-right: 8rem;
+}
+
+.about-content img{
+    width: 20rem;
+    border-radius: 50%;
+    margin-left: 20rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .about-content{
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .about-content p{
+        margin-top: 3rem;
+        margin-right: 2rem;
+    }
+
+  }

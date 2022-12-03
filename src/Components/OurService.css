@@ -1,0 +1,37 @@
+.list-our{
+    background-color: rgb(162, 252, 255);
+    border-radius: 1rem;
+    height: 24rem;
+    padding-top: 1rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.list-our h1{
+    font-size: 2rem;
+}
+
+.img-our{
+    max-width: 30rem;
+}
+
+.img-our img{
+    width: 80%;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+.btn button{
+    display: inline-block;
+    width: 10rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background: none;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.btn button:hover{
+    color: #fff;
+    background-color: black;
+}
